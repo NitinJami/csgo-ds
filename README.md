@@ -26,3 +26,7 @@ configs for my csgo server
 * csgoserver.cfg -- Located in serverfiles/csgo/cfg. Server config such as name, passwords etc.
 * gamemode_casual_server.cfg -- Located in serverfiles/csgo/cfg. Round start configurations such as mp_forcecamera, etc.
 * gamemode_comp_server.cfg -- Located in serverfiles/csgo/cfg. Round start configurations such as mp_forcecamera, mp_freezetime etc.
+
+### TODO
+
+- [ ] Azure deployment script
