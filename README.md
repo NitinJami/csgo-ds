@@ -10,6 +10,7 @@ configs for my csgo server
 ## Server Lifecycle
 
 * /home/redflower/server/csgoserver [start|stop|restart|update]
+
 *Note: You won't need to do server lifecycle ops unless server crashed. Usually, VM lifecycle will take care of server lifecycle as well.*
 
 ## VM Lifecycle
