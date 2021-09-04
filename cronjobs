@@ -21,7 +21,5 @@
 # 
 # m h  dom mon dow   command
 
-# gracefully shutdown csgo server every day at 4:25 UTC or 9:25 PST before Azure auto-shutdown VM
-25 04 * * * /home/redflower/server/csgoserver stop > /dev/null 2>&1
 # monitor csgo server status every 5 mins.
 */5 * * * * /home/redflower/server/csgoserver monitor > /dev/null 2>&1
