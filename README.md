@@ -18,8 +18,8 @@ configs for my csgo server
 * Managed by Azure Automation account.
 * Auto-shutdown daily at 9:30PM PST.
 * Auto-start daily at 5PM PST.
-** csgoserver is launched at boot by systemd.
-** csgoserver is checked for updates upon boot using cronjob.
+  * csgoserver is launched at boot by systemd.
+  * csgoserver is checked for updates upon boot using cronjob.
 
 ## Configuration files
 
@@ -27,6 +27,8 @@ configs for my csgo server
 * csgoserver.cfg -- Located in serverfiles/csgo/cfg. Server config such as name, passwords etc.
 * gamemode_casual_server.cfg -- Located in serverfiles/csgo/cfg. Round start configurations such as mp_forcecamera, etc.
 * gamemode_comp_server.cfg -- Located in serverfiles/csgo/cfg. Round start configurations such as mp_forcecamera, mp_freezetime etc.
+
+https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers#gamemodes_server.txt
 
 ### TODO
 
