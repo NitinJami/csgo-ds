@@ -16,10 +16,10 @@ configs for my csgo server
 ## VM Lifecycle
 
 * Managed by Azure Automation account.
-* Auto-shutdown daily at 9:30PM PST.
-* Auto-start daily at 5PM PST.
-  * csgoserver is launched at boot by systemd.
-  * csgoserver is checked for updates upon boot using cronjob.
+* Auto-shutdown daily at 11PM PST.
+* Auto-start daily at 6PM PST.
+  * csgoserver is launched at boot by cronjob.
+  * csgoserver is checked for updates upon boot using lgsm cfg option.
 
 ## Configuration files
 
