@@ -1,0 +1,36 @@
+"GameModes_Server.txt"
+{
+        "gameTypes"
+        {
+                "classic"
+                {
+                        "gameModes"
+                        {
+                                "competitive"
+                                {
+                                        "mapgroupsMP"
+                                        {
+                                                "mg_custom_se"  ""
+                                        }
+                                }
+                        }
+                }
+        }
+        "mapgroups"
+        {
+                "mg_custom_se"
+                {
+                        "name"  "mg_custom_se"
+                        "maps"
+                        {
+                                "de_calavera"   ""
+                                "de_pitstop"    ""
+                                "de_mirage"     ""
+                                "de_inferno"    ""
+                                "de_dust2"      ""
+                                "de_cache"      ""
+                                "de_nuke"       ""
+                        }
+                }
+        }
+}
