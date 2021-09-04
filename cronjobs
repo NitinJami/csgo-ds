@@ -23,3 +23,6 @@
 
 # monitor csgo server status every 5 mins.
 */5 * * * * /home/redflower/server/csgoserver monitor > /dev/null 2>&1
+
+# start game server on boot
+@reboot /home/redflower/server/csgoserver start > /dev/null 2>&1
