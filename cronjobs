@@ -25,5 +25,3 @@
 25 04 * * * /home/redflower/server/csgoserver stop > /dev/null 2>&1
 # monitor csgo server status every 5 mins.
 */5 * * * * /home/redflower/server/csgoserver monitor > /dev/null 2>&1
-# check csgo updates on VM start.
-@reboot /home/redflower/server/csgoserver update > /dev/null 2>&1
